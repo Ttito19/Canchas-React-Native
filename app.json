@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Canchas Deportivas",
+    "slug": "Project_Cancha_Deportes",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/fondo.png"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.codingmechanic.mapcuny",
+      "config": {
+        "googleMapsApiKey": "YOUR IOS API KEY HERE"
+      }
+    },
+    "android": {
+      "permissions": [
+        "CAMERA_ROLL"
+      ],
+      "package": "com.codingmechanic.mapcuny",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAGNAebGueQcvkm9sDtmznI8npbX-HqMTQ"
+        }
+      }
+    }
+  }
+}
