@@ -15,7 +15,7 @@
     "expo-svg-uri": "^1.1.0",
     "firebase": "^6.6.1",
     "firesql": "^2.0.2",
-    "lodash": "4.17.10",
+    "lodash": "4.17.19",
     "material-design-icons": "^3.0.1",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
